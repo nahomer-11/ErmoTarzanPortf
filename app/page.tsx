@@ -453,6 +453,7 @@ export default function Portfolio() {
   <CardContent className="p-8">
     <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h3>
     <div className="space-y-6">
+      {/* Phone */}
       <div className="flex items-center space-x-4">
         <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
           <Phone className="h-6 w-6 text-amber-600 dark:text-amber-400" />
@@ -462,6 +463,8 @@ export default function Portfolio() {
           <p className="text-gray-600 dark:text-gray-300">+251 942 384 382</p>
         </div>
       </div>
+
+      {/* Email */}
       <div className="flex items-center space-x-4">
         <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
           <Mail className="h-6 w-6 text-amber-600 dark:text-amber-400" />
@@ -471,6 +474,8 @@ export default function Portfolio() {
           <p className="text-gray-600 dark:text-gray-300">ermias1440@gmail.com</p>
         </div>
       </div>
+
+      {/* Location */}
       <div className="flex items-center space-x-4">
         <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
           <MapPin className="h-6 w-6 text-amber-600 dark:text-amber-400" />
@@ -480,36 +485,61 @@ export default function Portfolio() {
           <p className="text-gray-600 dark:text-gray-300">Addis Ababa, Ethiopia</p>
         </div>
       </div>
+
+      {/* LinkedIn */}
       <div className="flex items-center space-x-4">
         <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
           <svg className="h-6 w-6 text-amber-600 dark:text-amber-400" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.4 3.57 8.1 8.2 8.88v-6.28h-2.47v-2.6h2.47V9.92c0-2.45 1.46-3.8 3.7-3.8 1.07 0 2.2.2 2.2.2v2.42h-1.24c-1.23 0-1.62.77-1.62 1.56v1.86h2.76l-.44 2.6h-2.32v6.3c4.64-.78 8.2-4.48 8.2-8.88 0-5.5-4.46-9.96-9.96-9.96z"/>
+            <path d="M4.98 3.5C4.98 4.6 4.1 5.5 3 5.5S1 4.6 1 3.5 1.9 1.5 3 1.5s1.98.9 1.98 2zm.02 4H1V23h4V7.5zM8 7.5v15.5h4v-8.5c0-2.4 3-2.6 3 0v8.5h4v-9.5c0-5.2-6-5-7-2.5V7.5H8z"/>
           </svg>
         </div>
         <div>
-          <p className="font-medium text-gray-900 dark:text-white">Facebook / LinkedIn</p>
+          <p className="font-medium text-gray-900 dark:text-white">LinkedIn</p>
           <p className="text-gray-600 dark:text-gray-300">
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="underline">LinkedIn</a> &nbsp;/&nbsp;
-            <a href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="underline">Instagram</a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="underline">
+              linkedin.com/in/yourprofile
+            </a>
           </p>
         </div>
       </div>
+
+      {/* Instagram */}
       <div className="flex items-center space-x-4">
         <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
           <svg className="h-6 w-6 text-amber-600 dark:text-amber-400" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12c0 4.63 3.13 8.51 7.5 9.63.55.1.75-.24.75-.53 0-.26-.01-1.12-.02-2.04-3.05.67-3.7-1.37-3.7-1.37-.5-1.29-1.22-1.64-1.22-1.64-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.57 1.19 3.2.91.1-.71.38-1.19.69-1.46-2.44-.28-5.01-1.22-5.01-5.44 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.4.11-2.93 0 0 .92-.29 3 .94A10.5 10.5 0 0112 6.8c.94.004 1.89.13 2.77.38 2.07-1.23 2.98-.94 2.98-.94.6 1.53.22 2.65.11 2.93.7.77 1.12 1.75 1.12 2.95 0 4.24-2.58 5.15-5.04 5.42.39.33.74.99.74 2 0 1.45-.01 2.63-.01 2.99 0 .29.2.63.76.52C18.87 20.5 22 16.63 22 12c0-5.52-4.48-10-10-10z"/>
+            <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm5.25-.88a.88.88 0 110 1.75.88.88 0 010-1.75z"/>
+          </svg>
+        </div>
+        <div>
+          <p className="font-medium text-gray-900 dark:text-white">Instagram</p>
+          <p className="text-gray-600 dark:text-gray-300">
+            <a href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="underline">
+              @yourhandle
+            </a>
+          </p>
+        </div>
+      </div>
+
+      {/* Telegram */}
+      <div className="flex items-center space-x-4">
+        <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
+          <svg className="h-6 w-6 text-amber-600 dark:text-amber-400" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M9.036 16.95l-.39 4.186c.56 0 .8-.24 1.1-.53l2.64-2.5 5.48 4.02c1 .56 1.72.26 1.98-.94l3.6-16.8c.3-1.39-.5-1.94-1.45-1.6L1.66 9.2c-1.35.52-1.33 1.25-.23 1.58l5.6 1.75L18.4 5.9c.59-.38 1.13-.17.69.2L9.036 16.95z"/>
           </svg>
         </div>
         <div>
           <p className="font-medium text-gray-900 dark:text-white">Telegram</p>
           <p className="text-gray-600 dark:text-gray-300">
-            <a href="https://t.me/yourhandle" target="_blank" rel="noopener noreferrer" className="underline">@yourhandle</a>
+            <a href="https://t.me/yourhandle" target="_blank" rel="noopener noreferrer" className="underline">
+              @yourhandle
+            </a>
           </p>
         </div>
       </div>
     </div>
   </CardContent>
 </Card>
+
 
 
               <Card className="border-amber-200/50 dark:border-amber-800/50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
