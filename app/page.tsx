@@ -45,7 +45,7 @@ export default function Portfolio() {
       location: "Russia",
       description: "Cultural exchange program and fashion representation",
       type: "Participated",
-      image: "https://i.ibb.co/PGQ8BLZn/photo-2025-07-04-18-52-21.jpg",
+      image: "https://i.ibb.co/27LKmZSR/photo-2025-07-04-18-52-21.jpg",
     },
   ]
 
@@ -449,40 +449,68 @@ export default function Portfolio() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-12">
-              <Card className="border-amber-200/50 dark:border-amber-800/50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
-                <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h3>
-                  <div className="space-y-6">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
-                        <Phone className="h-6 w-6 text-amber-600 dark:text-amber-400" />
-                      </div>
-                      <div>
-                        <p className="font-medium text-gray-900 dark:text-white">Phone</p>
-                        <p className="text-gray-600 dark:text-gray-300">+251 942 384 382</p>
-                      </div>
-                    </div>
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
-                        <Mail className="h-6 w-6 text-amber-600 dark:text-amber-400" />
-                      </div>
-                      <div>
-                        <p className="font-medium text-gray-900 dark:text-white">Email</p>
-                        <p className="text-gray-600 dark:text-gray-300">ermias1440@gmail.com</p>
-                      </div>
-                    </div>
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
-                        <MapPin className="h-6 w-6 text-amber-600 dark:text-amber-400" />
-                      </div>
-                      <div>
-                        <p className="font-medium text-gray-900 dark:text-white">Location</p>
-                        <p className="text-gray-600 dark:text-gray-300">Addis Ababa, Ethiopia</p>
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+<Card className="border-amber-200/50 dark:border-amber-800/50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
+  <CardContent className="p-8">
+    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h3>
+    <div className="space-y-6">
+      <div className="flex items-center space-x-4">
+        <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
+          <Phone className="h-6 w-6 text-amber-600 dark:text-amber-400" />
+        </div>
+        <div>
+          <p className="font-medium text-gray-900 dark:text-white">Phone</p>
+          <p className="text-gray-600 dark:text-gray-300">+251 942 384 382</p>
+        </div>
+      </div>
+      <div className="flex items-center space-x-4">
+        <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
+          <Mail className="h-6 w-6 text-amber-600 dark:text-amber-400" />
+        </div>
+        <div>
+          <p className="font-medium text-gray-900 dark:text-white">Email</p>
+          <p className="text-gray-600 dark:text-gray-300">ermias1440@gmail.com</p>
+        </div>
+      </div>
+      <div className="flex items-center space-x-4">
+        <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
+          <MapPin className="h-6 w-6 text-amber-600 dark:text-amber-400" />
+        </div>
+        <div>
+          <p className="font-medium text-gray-900 dark:text-white">Location</p>
+          <p className="text-gray-600 dark:text-gray-300">Addis Ababa, Ethiopia</p>
+        </div>
+      </div>
+      <div className="flex items-center space-x-4">
+        <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
+          <svg className="h-6 w-6 text-amber-600 dark:text-amber-400" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.4 3.57 8.1 8.2 8.88v-6.28h-2.47v-2.6h2.47V9.92c0-2.45 1.46-3.8 3.7-3.8 1.07 0 2.2.2 2.2.2v2.42h-1.24c-1.23 0-1.62.77-1.62 1.56v1.86h2.76l-.44 2.6h-2.32v6.3c4.64-.78 8.2-4.48 8.2-8.88 0-5.5-4.46-9.96-9.96-9.96z"/>
+          </svg>
+        </div>
+        <div>
+          <p className="font-medium text-gray-900 dark:text-white">Facebook / LinkedIn</p>
+          <p className="text-gray-600 dark:text-gray-300">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="underline">LinkedIn</a> &nbsp;/&nbsp;
+            <a href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="underline">Instagram</a>
+          </p>
+        </div>
+      </div>
+      <div className="flex items-center space-x-4">
+        <div className="w-12 h-12 bg-amber-100 dark:bg-amber-900/50 rounded-full flex items-center justify-center">
+          <svg className="h-6 w-6 text-amber-600 dark:text-amber-400" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12c0 4.63 3.13 8.51 7.5 9.63.55.1.75-.24.75-.53 0-.26-.01-1.12-.02-2.04-3.05.67-3.7-1.37-3.7-1.37-.5-1.29-1.22-1.64-1.22-1.64-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.57 1.19 3.2.91.1-.71.38-1.19.69-1.46-2.44-.28-5.01-1.22-5.01-5.44 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.4.11-2.93 0 0 .92-.29 3 .94A10.5 10.5 0 0112 6.8c.94.004 1.89.13 2.77.38 2.07-1.23 2.98-.94 2.98-.94.6 1.53.22 2.65.11 2.93.7.77 1.12 1.75 1.12 2.95 0 4.24-2.58 5.15-5.04 5.42.39.33.74.99.74 2 0 1.45-.01 2.63-.01 2.99 0 .29.2.63.76.52C18.87 20.5 22 16.63 22 12c0-5.52-4.48-10-10-10z"/>
+          </svg>
+        </div>
+        <div>
+          <p className="font-medium text-gray-900 dark:text-white">Telegram</p>
+          <p className="text-gray-600 dark:text-gray-300">
+            <a href="https://t.me/yourhandle" target="_blank" rel="noopener noreferrer" className="underline">@yourhandle</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </CardContent>
+</Card>
+
 
               <Card className="border-amber-200/50 dark:border-amber-800/50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm">
                 <CardContent className="p-8">
