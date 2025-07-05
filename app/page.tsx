@@ -45,7 +45,7 @@ export default function Portfolio() {
       location: "Russia",
       description: "Cultural exchange program and fashion representation",
       type: "Participated",
-      image: "https://i.ibb.co/RkKjk9N4/photo-2025-07-04-18-52-21.jpg",
+      image: "https://i.ibb.co/PGQ8BLZn/photo-2025-07-04-18-52-21.jpg",
     },
   ]
 
